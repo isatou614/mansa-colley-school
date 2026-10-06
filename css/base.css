@@ -152,3 +152,18 @@ ul { list-style: none; }
 @media (max-width: 480px) {
   .container { padding: 0 1rem; }
 }
+
+/* Icon system (replaces emoji) */
+.icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.125em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+.icon-fill { fill: currentColor; stroke: none; }
