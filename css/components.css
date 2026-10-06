@@ -229,7 +229,7 @@
   font-weight: 900;
   overflow: hidden;
 }
-.staff-av img { width: 100%; height: 100%; object-fit: cover; }
+.staff-av img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
 .av-gold  { background: linear-gradient(135deg, var(--gold), var(--goldi)); color: var(--g9); }
 .av-green { background: linear-gradient(135deg, var(--g7), var(--g4)); color: #fff; }
 .av-sage  { background: linear-gradient(135deg, #5eab8a, #3d8f6a); color: #fff; }
