@@ -180,9 +180,11 @@ footer { background: var(--g9); color: #fff; padding: 3.5rem 0 1.8rem; border-to
 
 /* Responsive layout */
 @media (max-width: 1024px) {
-  .grid-4       { grid-template-columns: repeat(2,1fr); }
   .footer-grid  { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
   .exc-grid     { grid-template-columns: 1fr; }
+}
+@media (max-width: 1024px) and (min-width: 769px) {
+  .grid-4       { grid-template-columns: repeat(2,1fr); }
 }
 @media (max-width: 768px) {
   .hero-inner   { grid-template-columns: 1fr; }
