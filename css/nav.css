@@ -167,9 +167,16 @@
   border-left: 3px solid var(--gold);
 }
 .mobile-link.mobile-cta {
-  color: var(--gold);
+  color: var(--g9);
+  background: var(--gold);
   font-weight: 700;
+  text-align: center;
+  border-radius: 100px;
+  padding: 10px 16px;
+  margin-top: 8px;
+  border-bottom: none;
 }
+.mobile-link.mobile-cta:hover { background: var(--goldi); color: var(--g9); }
 
 /* Responsive */
 @media (max-width: 1024px) {
