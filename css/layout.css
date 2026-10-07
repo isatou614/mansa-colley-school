@@ -181,6 +181,12 @@ footer { background: var(--g9); color: #fff; padding: 3.5rem 0 1.8rem; border-to
 /* ---- NEWS PREVIEW GRID ---- */
 .news-preview-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 1.5rem; }
 
+/* ---- STATS (3-up variant, e.g. Excellence page) ---- */
+.stat-grid-3 { grid-template-columns: repeat(3,1fr); }
+
+/* ---- SCHOOL DETAIL GRID (Overview + What We Offer columns) ---- */
+.school-detail-grid { padding: 2rem; display: grid; grid-template-columns: 1.4fr 1fr; gap: 2.5rem; align-items: start; }
+
 /* Responsive layout */
 @media (max-width: 1024px) {
   .footer-grid  { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
@@ -195,6 +201,11 @@ footer { background: var(--g9); color: #fff; padding: 3.5rem 0 1.8rem; border-to
   .hero-right   { display: none; }
   .footer-grid  { grid-template-columns: 1fr; }
   .news-preview-grid { grid-template-columns: 1fr; }
+  .stat-grid-3  { grid-template-columns: repeat(2,1fr); }
+  .school-detail-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 480px) {
+  .stat-grid-3  { grid-template-columns: 1fr; }
 }
 @media (max-width: 480px) {
   .hero h1      { font-size: 2.2rem; }
