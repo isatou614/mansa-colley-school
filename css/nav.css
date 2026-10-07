@@ -160,6 +160,12 @@
   transition: color 0.2s;
 }
 .mobile-link:hover { color: #fff; }
+.mobile-link.active {
+  color: #fff;
+  font-weight: 700;
+  padding-left: 11px;
+  border-left: 3px solid var(--gold);
+}
 .mobile-link.mobile-cta {
   color: var(--gold);
   font-weight: 700;
