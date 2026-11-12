@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: isatou614/mansa-colley-school
+  branch: main
+  base_url: https://www.mansacolleybojangschool.org
+  auth_endpoint: api/auth
+
+media_folder: img
+public_folder: img
+
+collections:
+  - name: announcements
+    label: Announcements
+    files:
+      - name: announcements
+        label: Announcements
+        file: data/announcements.json
+        fields:
+          - { label: Items, name: items, widget: list, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Type, name: type, widget: select, options: [urgent, info, event] },
+              { label: Date, name: date, widget: string, hint: "e.g. 19 October 2026" },
+              { label: Author, name: author, widget: string },
+              { label: Body, name: body, widget: text }
+            ] }
+
+  - name: calendar
+    label: School Calendar
+    files:
+      - name: calendar
+        label: School Calendar
+        file: data/calendar.json
+        fields:
+          - { label: Term, name: term, widget: string }
+          - { label: Items, name: items, widget: list, fields: [
+              { label: Day, name: day, widget: string, hint: "e.g. 22" },
+              { label: Month, name: month, widget: string, hint: "e.g. Sep" },
+              { label: Title, name: title, widget: string },
+              { label: Date Range, name: dateRange, widget: string, hint: "e.g. 22–25 September 2026" },
+              { label: Description, name: description, widget: text }
+            ] }

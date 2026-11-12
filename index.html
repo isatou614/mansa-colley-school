@@ -213,14 +213,7 @@
       <div><div class="slabel">Latest Updates</div><h2 class="stitle" style="font-size:1.5rem;margin:0">School Announcements</h2></div>
       <a href="news.html" class="btn btn-outline-g btn-sm">All Notices →</a>
     </div>
-    <!-- PLACEHOLDER: replace before go-live -->
-    <div class="ann-item urgent">
-      <div style="display:flex;align-items:start;justify-content:space-between;gap:1rem;flex-wrap:wrap">
-        <div class="ann-title">Admissions Closed Until August 2027</div>
-        <div class="ann-meta"><svg class="icon" aria-hidden="true" focusable="false"><use href="#icon-calendar"></use></svg> 19 October 2026 · Administration</div>
-      </div>
-      <div class="ann-body">Admissions are currently closed. We will resume accepting applications for Nursery through Senior Secondary in August 2027. Please check back then or contact the school office for more information.</div>
-    </div>
+    <div data-announcements data-limit="1" data-filter="urgent"></div>
   </div>
 </section>
 
@@ -557,5 +550,6 @@
 </footer>
 
 <script src="js/site.js" defer></script>
+<script src="js/announcements.js" defer></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+{
+  "term": "Senior Secondary School — First Term 2026/27",
+  "items": [
+    { "day": "22", "month": "Sep", "title": "Admission into Grade 10", "dateRange": "22–25 September 2026", "description": "Application window for new Grade 10 students." },
+    { "day": "26", "month": "Sep", "title": "Orientation Day", "dateRange": "26 September 2026", "description": "Orientation for new and returning students." },
+    { "day": "28", "month": "Sep", "title": "Re-Opening — First Day of Term 1", "dateRange": "28 September 2026", "description": "All students return for the new academic year." },
+    { "day": "5", "month": "Oct", "title": "World Teachers Day", "dateRange": "5 October 2026", "description": "Celebrating our dedicated teaching staff." },
+    { "day": "2", "month": "Nov", "title": "First Test Week", "dateRange": "2–6 November 2026", "description": "First continuous assessment tests across all subjects." },
+    { "day": "9", "month": "Nov", "title": "Grade 12 Trial Exam", "dateRange": "9–14 November 2026", "description": "WASSCE trial examinations for Grade 12 students." },
+    { "day": "23", "month": "Nov", "title": "Second Test Week", "dateRange": "23–27 November 2026", "description": "Second continuous assessment tests across all subjects." },
+    { "day": "29", "month": "Nov", "title": "PTA Meeting", "dateRange": "Saturday, 29 November 2026", "description": "Parent-Teacher Association meeting with school management." },
+    { "day": "14", "month": "Dec", "title": "End of Term Activities & Inter-House Athletics", "dateRange": "14–18 December 2026", "description": "House training and inter-house athletic competition." },
+    { "day": "21", "month": "Dec", "title": "Issuing of Result Slips", "dateRange": "21 December 2026", "description": "Term 1 results distributed by class teachers." },
+    { "day": "11", "month": "Jan", "title": "Re-Opening for Second Term", "dateRange": "11 January 2027", "description": "Students return for Term 2 of the 2026/27 academic year." }
+  ]
+}

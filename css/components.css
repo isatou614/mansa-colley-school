@@ -168,6 +168,29 @@
 .ann-meta  { font-size: 12px; color: var(--light); font-weight: 600; }
 .ann-body  { font-size: 13.5px; color: var(--muted); line-height: 1.65; margin-top: 6px; }
 
+/* ---- CALENDAR ---- */
+.cal-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border);
+}
+.cal-item:last-child { border-bottom: none; }
+.cal-date {
+  background: var(--g0);
+  border: 1px solid var(--g1);
+  border-radius: var(--radius);
+  padding: 0.7rem 1rem;
+  text-align: center;
+  min-width: 56px;
+}
+.cal-day   { font-size: 1.3rem; font-weight: 900; font-family: var(--font-heading); color: var(--g7); }
+.cal-month { font-size: 10px; font-weight: 700; color: var(--g5); text-transform: uppercase; }
+.cal-title { font-weight: 700; font-size: 14.5px; margin-bottom: 3px; }
+.cal-range { font-size: 12px; color: var(--light); }
+.cal-desc  { font-size: 13px; color: var(--muted); margin-top: 2px; }
+
 /* ---- NEWS CARDS ---- */
 .news-card {
   background: var(--white);

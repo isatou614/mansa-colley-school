@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "title": "Admissions Closed Until August 2027",
+      "type": "urgent",
+      "date": "19 October 2026",
+      "author": "Administration",
+      "body": "Admissions are currently closed. We will resume accepting applications for Nursery through Senior Secondary in August 2027. Please check back then or contact the school office for more information."
+    },
+    {
+      "title": "Updated School Uniform Supplier",
+      "type": "info",
+      "date": "15 April 2025",
+      "author": "Administration",
+      "body": "Please note our approved uniform supplier has changed. Contact the school office for the updated details and fitting schedule."
+    },
+    {
+      "title": "GABECE & WASSCE Mock Exam Timetable Released",
+      "type": "event",
+      "date": "5 May 2025",
+      "author": "Academic Office",
+      "body": "Mock examination timetables for Grade 9 and SSS3 students are now available from class teachers and the academic office."
+    }
+  ]
+}
